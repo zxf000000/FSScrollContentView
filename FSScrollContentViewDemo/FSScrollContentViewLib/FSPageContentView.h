@@ -67,6 +67,8 @@
  设置contentView当前展示的页面索引，默认为0
  */
 @property (nonatomic, assign) NSInteger contentViewCurrentIndex;
+    
+@property (nonatomic, weak, readonly) UICollectionView *collectionView;
 
 /**
  设置contentView能否左右滑动，默认YES
